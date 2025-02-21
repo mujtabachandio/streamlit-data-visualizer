@@ -1,86 +1,102 @@
-# 📊 Universal Data Visualizer
-
-This is a **Streamlit-based** web application that allows users to upload any dataset (CSV or XLSX) and create various visualizations easily. The app supports multiple chart types and provides an intuitive UI for selecting visualization parameters.
+Here’s your updated README with the `requirements.txt` installation method included:  
 
 ---
 
-## 🚀 Features
+# 📊 Universal Data Visualizer  
 
-✅ **Upload any dataset** (CSV or XLSX)
-✅ **Auto-detects numeric & categorical columns**
-✅ **Supports multiple chart types:**
-
-- Bar Chart 📊
-- Line Chart 📈
-- Scatter Plot 🔵
-- Pie Chart 🥧
-- Histogram 📉
-  ✅ **Interactive visualizations using Plotly**
-  ✅ **User-friendly UI for selecting chart parameters**
-  ✅ **Real-time data display**
+This is a **Streamlit-based** web application that allows users to upload any dataset (CSV or XLSX) and create various visualizations easily. The app supports multiple chart types and provides an intuitive UI for selecting visualization parameters.  
 
 ---
 
-## 📦 Installation
+## 🚀 Features  
 
-To run this project locally, follow these steps:
+✅ **Upload any dataset** (CSV or XLSX)  
+✅ **Auto-detects numeric & categorical columns**  
+✅ **Supports multiple chart types:**  
 
-### 1️⃣ Clone the Repository
+- Bar Chart 📊  
+- Line Chart 📈  
+- Scatter Plot 🔵  
+- Pie Chart 🥧  
+- Histogram 📉  
+
+✅ **Interactive visualizations using Plotly**  
+✅ **User-friendly UI for selecting chart parameters**  
+✅ **Real-time data display**  
+
+---
+
+## 📦 Installation  
+
+To run this project locally, follow these steps:  
+
+### 1️⃣ Clone the Repository  
 
 ```bash
 git clone https://github.com/mujtabachandio/streamlit-data-visualizer.git
-cd universal-data-visualizer
+cd streamlit-data-visualizer
 ```
 
-### 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies  
 
-*Note: This project currently does not include a **********************************`requirements.txt`********************************** file. You can install the necessary dependencies manually:*
+You can install the required packages using the `requirements.txt` file:  
+
+```bash
+pip install -r requirements.txt
+```
+
+*If you prefer manual installation, install the necessary dependencies individually:*  
 
 ```bash
 pip install streamlit pandas plotly openpyxl
 ```
 
-### 3️⃣ Run the App
+### 3️⃣ Run the App  
 
 ```bash
-streamlit run app.py
+streamlit run index.py
 ```
 
 ---
 
-## 📂 File Structure
+## 📂 File Structure  
 
 ```
-📂 universal-data-visualizer/
+📂 streamlit-data-visualizer/
  ├── index.py  # Main Streamlit application
+ ├── requirements.txt  # Dependencies for the project
  ├── README.md  # Project documentation
- ├── titanic_train # dataset for practice 
+ ├── titanic_train  # Dataset for practice 
 ```
 
 ---
 
-## 🛠️ Usage
+## 🛠️ Usage  
 
-1️⃣ **Upload a dataset (CSV or XLSX)**
-2️⃣ **Select Chart Type** (Bar, Line, Scatter, Pie, Histogram)
-3️⃣ **Choose X-axis, Y-axis, and Color Grouping**
-4️⃣ **Click 'Visualize Data' to generate an interactive chart**
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
+1️⃣ **Upload a dataset (CSV or XLSX)**  
+2️⃣ **Select Chart Type** (Bar, Line, Scatter, Pie, Histogram)  
+3️⃣ **Choose X-axis, Y-axis, and Color Grouping**  
+4️⃣ **Click 'Visualize Data' to generate an interactive chart**  
 
 ---
 
-## 💡 Contributing
+## 📜 License  
 
-Feel free to contribute by submitting issues or pull requests! 😊
+This project is licensed under the **MIT License**.  
 
 ---
 
-## 🔗 Connect
+## 💡 Contributing  
 
-📧 **Email:** [mujtabachandio384@gmail.com](mailto\:mujtabachandio384@gmail.com)\
-🐙\*\*:\*\* mujtaba.xyz
+Feel free to contribute by submitting issues or pull requests! 😊  
+
+---
+
+## 🔗 Connect  
+
+📧 **Email:** [mujtabachandio384@gmail.com](mailto:mujtabachandio384@gmail.com)  
+🐙 **:** [mujtaba.xyz](https://github.com/mujtabachandio)  
+
+---
+
+This version clearly states how to install dependencies using `requirements.txt`. Let me know if you need further changes! 🚀
