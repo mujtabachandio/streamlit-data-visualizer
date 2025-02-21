@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/universal-data-visualizer.git
+git clone https://github.com/mujtabachandio/streamlit-data-visualizer.git
 cd universal-data-visualizer
 ```
 
